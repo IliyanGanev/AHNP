@@ -1,0 +1,36 @@
+// Place all the styles related to the StaticPages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body{
+	background: lightgrey;
+	padding-left:2em;
+	padding-top:10px;
+}
+
+#button{
+	font-size:13px;
+	background:red;
+	border: 1px solid black;
+	padding:5px;
+	margin-bottom:1em;
+	margin-left:15px;
+	margin-top:1em;
+}
+
+#button:hover{
+	border: 1px solid red;
+}
+
+.entry{
+	background:	#bbbbbb;
+	padding:10px;
+  margin:1em 6em 1em 1em;
+  border: 1px solid grey;  
+}
+
+#logo {
+	padding-top:3em;
+	margin-left:15px;	
+
+}

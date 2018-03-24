@@ -1,0 +1,8 @@
+<% @useragents.each do |agent| %> 
+	<div class="entry">
+  	<p><%=agent.agent%></p>
+  	<p><%=agent.created_at.in_time_zone("Pacific Time (US & Canada)").strftime("Created on: %m/%d/%Y, at %I:%M%p ")%></p>
+  	<p><%=agent.updated_at.in_time_zone("Pacific Time (US & Canada)").strftime("Updated on: %m/%d/%Y, at %I:%M%p ")%></p>
+  	<p>Counter: <%=agent.counter%></p><br>
+	</div>
+<%end%>
